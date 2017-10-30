@@ -1,0 +1,13 @@
+{
+  "strategies_config": {
+    "email": {
+      "token": "hash-token",
+      "domain": "no-reply@domain.com",
+      "from": "no-reply@domain.com"
+    },
+    "sms": {
+      "token": "hash-token",
+      "sender": "ECO"
+    }
+  }
+}

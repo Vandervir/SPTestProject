@@ -1,0 +1,23 @@
+{
+    "name": "vandervir/test-project",
+    "authors": [
+        {
+            "name": "Tomasz Ferfecki",
+            "email": "it114@g2a.com"
+        }
+    ],
+    "require": {
+        "gears/class-finder": "^1.0",
+        "phpunit/phpunit": "^6.4",
+        "smsapi/php-client": "^1.8",
+        "php-amqplib/php-amqplib": "^2.7",
+        "mailgun/mailgun-php": "^2.3",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4",
+        "hassankhan/config": "^0.10.0"
+    },
+    "autoload": {
+        "psr-4": { "TestProject\\": "src/" }
+    }
+
+}
